@@ -426,7 +426,7 @@ function renderGameOver() {
 }
 
 function keyPressed() {
-    if (key === 'r' || key === 'R') {
+    if (key === 'r' || key === 'R' || key === 'a') {
         if (gameState === 'gameOver') {
             initGame();
         }
