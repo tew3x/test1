@@ -355,7 +355,7 @@ function renderUI() {
     
     // High Score
     textSize(18);
-    text(`High Scores: ${highScore}`, 20, 55);
+    text(`High Score: ${highScore}`, 20, 55);
     
     // Power-up indicators
     let indicatorY = 80;
@@ -426,7 +426,7 @@ function renderGameOver() {
 }
 
 function keyPressed() {
-    if (key === 'r' || key === 'R' || key === 'a') {
+    if (key === 'r' || key === 'R') {
         if (gameState === 'gameOver') {
             initGame();
         }
